@@ -11,6 +11,7 @@ Welcome to my first portfolio profile! I was born ad raised in Chattanooga, Tenn
 1. I have 4 brothers and 4 sisters.
 2. Beyonce is my real, blood  cousin.
 3. My childhood nickname was Cheeseburger.
+4. My last name is really Love 
 
 ---
 
