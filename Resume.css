@@ -1,0 +1,16 @@
+/*stylesheet*/
+body {
+  Font-family: "Ariel";
+}
+.main-image {
+  border: solid 4px purple;
+  border-radius: 50%;
+}
+
+h1{
+  background-color: #e2e2e2;
+  padding: 5px;
+
+}
+.section-title {
+text-transform: uppercase;}

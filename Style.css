@@ -178,13 +178,13 @@ a.social:hover {
   }
 
   .nav {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: purple;
   }
 
   main {
