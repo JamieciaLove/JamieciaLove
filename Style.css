@@ -70,7 +70,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(3) rotate(60deg);
+  transform: scale(1) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
@@ -89,7 +89,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #e699ff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }

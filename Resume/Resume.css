@@ -14,3 +14,20 @@ h1{
 }
 .section-title {
 text-transform: uppercase;}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;}
+  header .profile-image {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 3px solid purple;
+    transition: all .5s;}
