@@ -16,3 +16,26 @@
 }
 .nav li {
   padding: 5px 10px 10px 10px;}
+
+.container {
+      max-width: 960px;
+      margin: 0 auto;
+  }
+  * {background-color: lavender;}
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #e699ff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: purple;
+  }
