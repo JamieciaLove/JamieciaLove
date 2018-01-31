@@ -1,14 +1,35 @@
 /*stylesheet*/
-body {
-  Font-family: "Ariel";
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: purple;
+}
+/*Link Styles*/
+a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover {
+  color: #6633ff;
+}
+/* Header section*/
+
+/*Section Styles*/
+
 .main-image {
-  border: solid 4px purple;
+  border: solid 6px black;
   border-radius: 50%;
 }
 
 h1{
-  background-color: #e2e2e2;
+  background-color: purple;
   padding: 5px;
 
 }
