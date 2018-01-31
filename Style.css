@@ -118,13 +118,18 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 0px 0 0px 0px;
+  background: url('photos/purpledots.jpg') no-repeat top center ;
+  background-size: cover;
 }
 
 footer .copyright {
   top: -8px;
   margin-right: 20px;
-  font-size: .75em;
+  font-size: 1em;
+  color: yellow;
+  text-shadow: black;
+  
 }
 
 footer ul {
