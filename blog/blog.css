@@ -1,8 +1,4 @@
-.ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -26,7 +22,7 @@
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-    text-align: left;
+    text-align: center;
     background: #e699ff;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
