@@ -83,3 +83,6 @@ text-transform: uppercase;}
     border-radius: 75%;
     border: 3px solid purple;
     transition: all .5s;}
+
+body .profile-image:hover {
+      transform: scale(1) rotate(10deg);
