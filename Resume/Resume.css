@@ -2,16 +2,13 @@
 /** {
   box-sizing: border-box;
 }**/
-Header {
-  background-image: url(../photos/elegant1.jpg);
-}
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: inherit, sans-serif;
   color: #222;
-  background-image: url(../photos/elegant1.jpg);
+  background-image: url(../photos/flower.jpg);
   background-size: cover;
 }
 /*Link Styles*/
@@ -23,10 +20,6 @@ a:hover {
   color: #6633ff;
 }
 /* Header section*/
-header {
-  min-height: 450px;
-
-}
 
 /** Card around sections **/
 .card {
@@ -34,14 +27,19 @@ header {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #e699ff;
+  background: beige;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
 .card:hover {
   border-color: #ff99ff;
 }
-
+.flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 /*Section Styles*/
 
 .main-image {
@@ -50,7 +48,7 @@ header {
 }
 
 h1{
-  background-color: purple;
+  background-color: none;
   padding: 5px;
 
 }
@@ -80,8 +78,8 @@ text-transform: uppercase;}
 
 .profile-image {
     margin-top: 100px;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 75%;
     border: 3px solid purple;
     transition: all .5s;}
