@@ -20,6 +20,9 @@ a:hover {
   color: #6633ff;
 }
 /* Header section*/
+header {
+  min-height: 450px;
+}
 /** Card around sections **/
 .card {
   margin: 30px;
