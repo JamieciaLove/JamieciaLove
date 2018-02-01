@@ -1,7 +1,7 @@
 /*stylesheet*/
-* {
+/** {
   box-sizing: border-box;
-}
+}**/
 
 body {
   margin: 0;
@@ -20,6 +20,19 @@ a:hover {
   color: #6633ff;
 }
 /* Header section*/
+/** Card around sections **/
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #e699ff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
 
 /*Section Styles*/
 
@@ -35,6 +48,17 @@ h1{
 }
 .section-title {
 text-transform: uppercase;}
+
+/*nav section*/
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;}
+
 .nav {
   display: flex;
   justify-content: space-around;

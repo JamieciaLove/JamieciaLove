@@ -1,6 +1,6 @@
-* {
+/** * {
   box-sizing: border-box;
-}
+}**/
 
 body {
   margin: 0;
@@ -72,6 +72,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1) rotate(10deg);
 }
+/**
 .tag {
   background-color: #efefef;
   color: black;
@@ -83,7 +84,7 @@ header .profile-image:hover {
 .location {
   background-color: #efefef;
   color: purple;
-}
+}**/
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -129,7 +130,6 @@ footer .copyright {
   font-size: 1em;
   color: yellow;
   text-shadow: black;
-  
 }
 
 footer ul {
