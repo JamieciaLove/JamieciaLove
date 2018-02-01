@@ -31,7 +31,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'inherit', sans-serif;
     color: #222;
     background: purple;
   }
