@@ -16,27 +16,25 @@
     <li><a href="../blog/blog.html"> Blog</a><li>
   </ul>
 </head>
+<header>
+
+</header>
 <h1> Contact Information </h1>
 <body>
   <p>Please enter any information below. </P>
 <form action="form-responses/new" method="POST">
-  <input type="email" name="userEmail" placeholder="your.email@example.com">
-</form>
-<form action="form-responses/new" method="POST">
 
-  <input type="text" name="firstname" value="First Name" size="100" autofocus>
-  <input type="text" name="lastname" value="Last Name" size="100">
-  <input type="email" name="userEmail" placeholder="your.email@example.com">
+  <input type="text" name="firstname" value="First Name" size="50" autofocus></br>
+  <input type="text" name="lastname" value="Last Name" size="50"></br>
+  <input type="email" name="userEmail" placeholder="your.email@example.com"></br>
 
-  <label>What's this message about?
-    <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
-    <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
-    <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+  <label>What's this message about?</br>
+    <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span></br>
+    <input type="radio" name="subject" value="personal" checked><span>Personal message</span></br>
+    <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span></br>
   </label>
-
-  <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
-  <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
-
+</br>
+  <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!</br>
   <label for="marketing">How did you hear about me?</label>
   <select name="marketing">
     <optgroup label="Online">
@@ -53,7 +51,6 @@
     <option value="other">Other</option>
   </select>
 
-  <textarea name="user_message" rows="8" cols="40"></textarea>
   <input type="submit">
 </form>
 

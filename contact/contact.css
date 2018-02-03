@@ -1,4 +1,4 @@
-* {background-color: lavender;}
+/* * {background-color: lavender;} */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -14,7 +14,7 @@ body {
   text-align: center;
   font-family: inherit, sans-serif;
   color: #222;
-  background: purple;
+  background: none;
 }
 .box {width: 350px;
   padding: 20px;
@@ -50,3 +50,15 @@ a:hover {
 }
 .nav .name {
   display: none;}
+  /* header stuff */
+
+  header {
+    text-align: center;
+    background: url('../photos/question-marks-color.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 25px;
+  }
+  header {
+    min-height: 250px;
+  }
