@@ -7,7 +7,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: inherit, sans-serif;
-  color: #222;
+  color: black;
+  background-color: tan;
   /* background-image: url(../photos/flower.jpg); */
   /* background-size: cover; */
 }
@@ -55,7 +56,7 @@ a:hover {
 }
 
 h1{
-  background-color: none;
+  background-color: tan;
   padding: 5px;
 
 }
@@ -67,7 +68,7 @@ text-transform: uppercase;}
 .main-nav {
   width: 100%;
   background: black;
-  min-height: 30px;
+  min-height: 10px;
   padding: 10px;
   position: fixed;
   text-align: center;}
@@ -88,19 +89,23 @@ text-transform: uppercase;}
     width: 200px;
     height: 200px;
     border-radius: 75%;
-    border: 3px solid purple;
+    border: 3px solid none;
     transition: all .5s;}
 #tech222 {
   width: 550px;
 }
+#tech333
+{
+  width:550px;
+}
 body .profile-image:hover {
       transform: scale(1) rotate(10deg);}
-      header {
-        text-align: center;
-        background: url('../photos/flower.jpg') no-repeat top center ;
-        background-size: cover;
-        overflow: hidden;
-        padding-top: 50px;
+header {
+        text-align: left;
+        background: url('../photos/swaggy.jpg') no-repeat top center ;
+        background-size: contain;
+        overflow: auto;
+        padding-top: 100px;
       }
       header {
         min-height: 250px;
