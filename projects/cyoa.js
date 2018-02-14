@@ -1,11 +1,26 @@
 
 
+// Question prompts
+var questionPill = prompt("Choose your fate: Red Pill or Purple Pill?");
+var areYouReady = prompt("Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?");
+alert("Welcome to the game Red Pill/Purple Pill. The pill you choose will determine your fate.");
+if (questionPill.toUpperCase() === "PURPLE") { questionPill === true; }
+}
+else {
+
+}
+
+if (questionPill) {prompt("Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?")
+  questionPill === true;
+
+}
 
 
 
 
-Choose your fate: Red Pill or Blue Pill?
-Blue pill - Welp you will continue living in blissful ignorance on your ride to the gallows. Enjoy.
+
+Choose your fate: Red Pill or Purple Pill?
+Purple pill - Welp you will continue living in blissful ignorance on your ride to the gallows. Enjoy.
 Red Pill - Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?
 No – Well, off to the gallows. Try again.
 Yes – What is the only mammal that can’t jump? Elephants or Giraffes?
