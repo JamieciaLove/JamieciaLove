@@ -3,28 +3,26 @@
 // Question prompts
 alert("Welcome to the game Red Pill/Purple Pill. The pill you choose will determine your fate.");
 var response = prompt("Choose your fate: Red Pill or Purple Pill? (Type only color)");
-if (response.toUpperCase() === "PURPLE") { questionPill === true; }
-else if (response.toUpperCase() === "RED"){
-  alert("Well I don't like the color red. Off to the gallows. Try again");
-  // document.write("Restart page");
-  questionPill === false;
-}
-else (response === "") {
+  if (response.toUpperCase() === "PURPLE") {
+    questionPill === true;
+  } else if (response.toUpperCase() === "RED") {
+      alert("Well I don't like the color red. Off to the gallows. Try again");
+      // document.write("Restart page");
+      questionPill === false;
+    } else if (response === "") {
   prompt("Choose  your fate: Red Pill or Purple Pill PLEASE!? (Type only color)");
 }
 
-if (questionPill) {prompt("Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?");
+if (questionPill === true) {
+  var questionRealities = prompt("Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?");
+}
+If (questionRealities === "NO") {
+  alert(No – Well, off to the gallows. Try again.);
 }
 
 
 
 
-
-
-
-// Choose your fate: Red Pill or Purple Pill?
-// Purple pill - Welp you will continue living in blissful ignorance on your ride to the gallows. Enjoy.
-// Red Pill - Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?
 // No – Well, off to the gallows. Try again.
 // Yes – What is the only mammal that can’t jump? Elephants or Giraffes?
 // Giraffes – Off to the gallows. Try again.
