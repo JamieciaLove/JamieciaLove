@@ -4,13 +4,16 @@
 alert("Welcome to the game Red Pill/Purple Pill. The pill you choose will determine your fate.");
 var questionPill = prompt("Choose your fate: Red Pill or Purple Pill? (Type only color)");
 if (questionPill.toUpperCase() === "PURPLE") { questionPill === true; }
-}
-else {
+else if (questionPill.toUpperCase() === "RED"){
   alert("Well I don't like the color red. Off to the gallows. Try again");
+  // document.write("Restart page");
+  questionPill === false;
 }
+else {prompt("Choose your fate: Red Pill or Purple Pill PLEASE!? (Type only color)")}
 
 if (questionPill) {prompt("Are you sure you made the right choice? If not, too late. I will ask you a series of 5 questions. What is the prize after making it to the end? If you make it to the end you will get completely filled with the satisfaction of knowing you made it to the end. Are you ready to play and discover the harsh realities of life?");
 }
+
 
 
 
