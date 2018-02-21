@@ -55,9 +55,10 @@ a:hover {
 header {
   text-align: center;
   background: url('photos/Pineapple.jpg') no-repeat top center ;
-  background-size: cover;
+  background-size: auto;
   overflow: hidden;
   padding-top: 25px;
+
 }
 header {
   line-height: 1.5;
@@ -95,9 +96,9 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
-.card:hover {
+/* .card:hover {
   border-color: #ff99ff;
-}
+} */
 
 ul.skills {
   padding: 0;
@@ -206,4 +207,9 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+.highlighted {
+  /* font-style: italic; */
+  background: yellow;
 }

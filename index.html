@@ -6,7 +6,8 @@
   <title>Jamiecia Love's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></head>
   <body>
 
     <div class="main-nav">
@@ -28,8 +29,8 @@
     </header>
 
     <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
+      <div class="card" id="highlighted">
+        <h2 >Background</h2>
         <p>This is a paragraph. This is a paragraph that will soon hold valuable information. As of yet, no. It will though, I promise.</p>
         <p>I am a <em>traveler</em> &#9992;, <b>holistic health educator </b> &#9882;,<em>yogi</em> &#9775;, <b>coder</b> &blk12;.</p>
         <ul>
@@ -59,10 +60,21 @@
       </ul>
       <p class="copyright"> <b>&copy copyright 2018 Jamiecia Love</b></p>
     </footer>
-    <!-- <script>
-    var visitorName = prompt ( "what is you're name?");
-    var visitormessage = "Hello " + visitorName + ". Welcome to my first website.";
-      alert(visitormessage);
-    </script> -->
+
+<script>
+$('h1').on('mouseover', () => {
+  $('h1').removeClass('tag')
+  $('h1').addClass('highlighted')
+  console.log("hover")
+})
+$('h1').on('mouseleave', () => {
+  $('h1').removeClass('highlighted')
+  $('h1').addClass('tag')
+})
+  // var visitorName = prompt ( "what is you're name?");
+  // var visitormessage = "Hello " + visitorName + ". Welcome to my first website.";
+  //     alert(visitormessage);
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </body>
   </html>
