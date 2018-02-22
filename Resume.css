@@ -102,7 +102,7 @@ body .profile-image:hover {
       transform: scale(1) rotate(10deg);}
 header {
         text-align: left;
-        background: url('../photos/swaggy.jpg') no-repeat top center ;
+        background: url('photos/swaggy.jpg') no-repeat top center ;
         background-size: contain;
         overflow: auto;
         padding-top: 100px;
