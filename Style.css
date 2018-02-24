@@ -122,9 +122,9 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 0px 0 0px 0px;
-  background: url('photos/purpledots.jpg') no-repeat top center ;
+  /*background: url('photos/purpledots.jpg') no-repeat top center ;
   background-size: cover;
-}
+}*/
 
 footer .copyright {
   top: -8px;
