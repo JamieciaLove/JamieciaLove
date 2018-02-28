@@ -39,6 +39,14 @@ footer ul li {
 
 /* Media Page Styles */
 
+.mediaBackground {
+  background-size: 100%;
+  background-image: url("photos/digital_rays-wide.jpg");
+  background-repeat: no-repeat;
+  text-align: center; 
+  background-attachment: fixed;
+}
+
 
 /* Projects Page Styles */
 
