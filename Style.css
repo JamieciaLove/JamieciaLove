@@ -121,28 +121,10 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 0px 0 0px 0px;
+  padding: 0px 0 0px 0px;}
   /*background: url('photos/purpledots.jpg') no-repeat top center ;
   background-size: cover;
 }*/
-
-footer .copyright {
-  top :-8px;
-  margin-right: 20px;
-  font-size :1em;
-  color :yellow;
-  text-shadow :black;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
 
 a.social {
   display: inline-block;
@@ -207,7 +189,7 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
+
 
 .highlighted {
   /* font-style: italic; */

@@ -10,15 +10,30 @@
 
 
 
-
-
 /* Index Page Styles */
 
+footer .copyright {
+  top :-8px;
+  margin-right: 20px;
+  font-size :1em;
+  color :rgb(120, 74, 247);
+  text-shadow :black;
+}
 
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
 
 /* Resume Page Styles */
 #navBar {
-  color: blueviolet;
+ background-color : rgb(0, 0, 0);
+ text-decoration-color: brown;
 }
 
 
