@@ -84,7 +84,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(2) rotate(10deg);}
+  transform: scale(2) rotate(25deg);}
 
 .cardIndex {
     margin: 30px;
