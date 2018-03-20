@@ -1,4 +1,19 @@
 
+// var answer;
+// var answerCount = 0;
+// var correctGuess = false; 
+
+// alert("Welcome to the game Off to The Gallows. The pill you choose will determine your fate.");
+
+// do {
+//   answer = prompt("Let's start. What is the only mammal that can’t jump? Elephants or Giraffes?");
+// } if () {
+
+// } while (){
+
+// }
+
+
 
 // var qResponses = false; 
 // var questions = ["Choose your fate: Red Pill or Purple Pill?",
