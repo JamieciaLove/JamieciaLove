@@ -1,51 +1,160 @@
-/* Nav Bar links for standardizing */ 
+/* General settings */ 
+img.large{
+width: 500px ;
+height: 500px ;
+}
+img.medium{
+  width:250px ;
+  height:250px ;
+}
+img.small{
+  width:100px ;
+  height: 100px;
+}
+
+header {
+  line-height: 200px;
+}
+
+
+/* Nav Bar links */ 
 .nav {
     display: flex;
     justify-content: space-around;
     font-weight: 700;
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 0;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .main-navHome {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    min-height: 30px;
+    position: top;
+    text-align: center;
+    color: green;
   }
 
+  .main-navHome a:link {
+    color: rgb(71, 22, 247);
+    text-decoration: none;
+  }
+  
+  .main-navHome a:hover {
+    background-color: rgb(121, 62, 155);
+  }
 
+  .main-navHome a:visited {
+    color:green;
+  }
+
+  /* Footer bar and links*/
+  footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  footer .copyright {
+    top :-8px;
+    margin-right: 20px;
+    font-size :1em;
+    color :rgb(120, 74, 247);
+    text-shadow :black;
+  } 
 
 /* Index Page Styles */
 
-footer .copyright {
-  top :-8px;
-  margin-right: 20px;
-  font-size :1em;
-  color :rgb(120, 74, 247);
-  text-shadow :black;
-}
+ header.indexHeader{  
+  text-align: center;
+  background: url('photos/bohemian.jpg') no-repeat top center ;
+  background-size: auto ;
+  overflow: hidden;
+  padding-top: 25px;
 
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
+header .profile-image {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border: 3px solid purple;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(2) rotate(10deg);}
 
-footer ul li {
-  display: inline-block;
+.cardIndex {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #e699ff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+
+  ul.purpose {
+    padding: 0;
+    text-align: left;
+  }
+  
+  .purpose li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #850dca;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  /* .purpose li:nth-child(odd) {
+    background: #0399ff;
+  } */
+
+     /*box around name and city  */
+  .tagIndex {
+    background-color: #850dca;
+    color: black;
+    padding: 0px;
+    border-radius: 0px;
+    display: table ;
+    margin: 10px auto;
+  }
+
+  body.indexbody{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: inherit, sans-serif;
+    color: #222;
+    background-color: rgb(77, 0, 128);
+  }
+
+#iconIndexContact {
+  width: 100px;
+  height: 100px;
+}
+#iconIndexLinked{
+width: 50px;
+height: 50px;
+}
+#iconIndexGithub{
+  width: 50px;
+  height: 50px;
+}
+.flex {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 /* Resume Page Styles */
-#navBar {
- background-color : rgb(0, 0, 0);
- text-decoration-color: brown;
-}
 
 /* Projects Page Styles */
-
-.mediaBackground {
-  background-size: 100%;
-  background-image: url("photos/digital_rays-wide.jpg");
-  background-repeat: no-repeat;
-  text-align: center; 
-  background-attachment: fixed;
-}
-
 
 
 /* Game Application page Styles */
