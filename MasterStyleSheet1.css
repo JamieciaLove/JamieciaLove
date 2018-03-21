@@ -30,6 +30,7 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
     position: top;
+    font-size: 18px;
   }
   .main-navHome {
     width: 100%;
@@ -50,7 +51,7 @@ header {
   }
 
   .main-navHome a:visited {
-    color:rgb(34, 157, 240)(34, 157, 240);
+    color:rgb(34, 157, 240);
   }
   .main-navResume {
     width: 100%;
@@ -71,11 +72,23 @@ header {
   .resumeLinks a:visited {
     color: yellow;
   }
+
+  .projectLinks a:visited {
+    color: rgb(245, 160, 245);
+    text-decoration: none;
+
+  }
+  .projectLinks a:link {
+    color: rgb(245, 160, 245);
+    text-decoration: none;
+  }
+
   /*///////////Footer and links*/
   footer {
     display: flex;
     text-align: center;
     align-items: center;
+    padding: 25px;
   }
 
   footer .copyright {
@@ -172,6 +185,7 @@ header.headerResume {
   padding-top: 100px;
   min-height: 250px;
 }
+
 body.resumeBody {margin: 0;
 padding: 0;
 text-align: center;
@@ -219,41 +233,91 @@ height: 60px;
   width: 550px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*///////////Projects Page Styles */
+header.headerprojects {
+  text-align: left;
+  background: url("photos/table2.jpg") no-repeat top center ;
+  background-size: cover;
+  overflow: auto;
+  padding-top: 100px;
+  min-height: 250px;
+}  
+body.projectsbody {
+  background-color: rgb(39, 133, 81);
+}
+ul.projects {
+  border-radius: 6px;
+  display: inline-table;
+  background: #2cc987;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 10px 10px;
+  margin: 2px;
+  list-style-type: none;
+  font-size: 18px;
+}
+ul.projects2 a:visited {
+  color:black;
 
+}
+
+#iconProjectContact {
+  width: 70px;
+  height:70px;
+}
+#iconProjectLinked{
+width: 60px;
+height: 60px;
+}
+#iconProjectGithub{
+  width: 60px;
+  height: 60px;
+}
+#benjamin{
+  color: black;
+}
+
+.developerPadding {
+  padding: 40px;
+}
+
+/*/////////// Contact Page Styles */
+#iconContactContact {
+  width: 70px;
+  height:70px;
+}
+#iconContactLinked{
+width: 60px;
+height: 60px;
+}
+#iconContactGithub{
+  width: 60px;
+  height: 60px;
+}
+ input {
+   font-size: 15px ;
+   color: black ;
+   background-color: rgb(135, 205, 226) ;
+   border: 1px solid #bdbdbd;
+   border-radius: 5px;
+
+ }
+ .cardContact {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #e699ff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+fieldset {
+  width: 5px;
+  border: 2px dotted #2cc987;
+  border-radius: 10px;
+  padding: 20px; 
+}
 
 /*/////////// Game Application page Styles */
 
 
 
-/*/////////// Contact Page Styles */
-
-
-/*/////////// Blog page Styles*/
-
-
-/*/////////// */
-
-
-/* */
-
-
-
-/* */

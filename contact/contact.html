@@ -11,31 +11,41 @@
     <li>Jamiecia Love</li>
     <li><a href="../index.html">Home</a></li>
     <li><a href="../Resume/resume page.html">Resume</a></li>
-    <li><a href="../projects/projects.html">Projects</a></li>
+    <li><a href="../projects/projects.html"> Developer Projects</a></li>
     <li><a href="#">Contact</a></li>
-    <li><a href="../Media/media.html">Media</a></li>
-    <li><a href="../blog/blog.html"> Blog</a><li>
   </ul>
 </head>
 <header>
-<!-- This is a comment -->
+
 </header>
+<div >
 <h1> Contact Information </h1>
 <body>
   <p>Please enter any information below. </P>
-<form action="form-responses/new" method="POST">
+<form action="https://formspree.io/jlove777@outlook.com" method="POST">
 
-  <input type="text" name="firstname" value="First Name" size="50" autofocus></br>
-  <input type="text" name="lastname" value="Last Name" size="50"></br>
-  <input type="email" name="userEmail" placeholder="your.email@example.com"></br>
+  <label for=""> First Name:
+    <input type="text" name="firstname" value="" size="30" autofocus>
+  </label></br>
+  <label for=""> Last Name:
+      <input type="text" name="lastname" value="" size="30">
+  </label></br>
+  <label for=""> Email:
+      <input type="email" name="userEmail" placeholder="email@example.com">
+  </label></br>
+  <label for="">Phone Number:
+    <input type="text" name="userPhone" placeholder="phone number">
+  </label> </br>
 
-  <label>What's this message about?</br>
-    <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span></br>
-    <input type="radio" name="subject" value="personal" checked><span>Personal message</span></br>
-    <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span></br>
+  <label>What's is the best time of the day to contact you?</br>
+    <input type="radio" name="subject" value="professional" checked><span>&sext;Morning Sunrise&sext;</span></br>
+    <input type="radio" name="subject" value="personal" checked><span>&sext;Afternoon Sunshine&sext;</span></br>
+    <input type="radio" name="subject" value="other" checked><span>&sext;Evening Sundown&sext;</span></br>
   </label>
 </br>
-  <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!</br>
+  <label for="">
+    <textarea name="comments" id="textarea" cols="55" rows="10">Write Personal Message here</textarea>
+  </label></br>
   <label for="marketing">How did you hear about me?</label>
   <select name="marketing">
     <optgroup label="Online">
@@ -54,7 +64,12 @@
 
   <input type="submit">
 </form>
-
-
+</div>
+<footer >
+    <p class="flexIndex iconAlignment"> <a href="contact/contact.html"> <img id="iconContactContact" src="../photos/contact-me-no-data-md.png"> </a> </br>
+     <a href="https://www.linkedin.com/in/jamiecia-love-848162117/"><img id="iconContactLinked" src="../photos/Linkedin2.png"></a></br>
+       <a href="https://github.com/JamieciaLove"><img id="iconContactGithub"src="../photos/Github.png"></a></p>
+   </footer>
+   <p class="copyright"> <b>&copy copyright 2018 Jamiecia Love</b></p>
 </body>
 </html>
