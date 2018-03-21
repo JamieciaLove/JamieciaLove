@@ -296,7 +296,7 @@ height: 60px;
  input {
    font-size: 15px ;
    color: black ;
-   background-color: rgb(135, 205, 226) ;
+   background-color: rgb(255, 255, 255) ;
    border: 1px solid #bdbdbd;
    border-radius: 5px;
 
@@ -306,15 +306,41 @@ height: 60px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #e699ff;
+  background: #20cbe9;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  text-align: center;
 }
 fieldset {
   width: 5px;
   border: 2px dotted #2cc987;
   border-radius: 10px;
   padding: 20px; 
+  text-align: right;
+}
+legend {
+  background-color: aliceblue;
+  border: 1px dotted #850dca;
+  border-radius: 0px;
+  padding: 10px 20px;
+
+}
+
+header.contactHeader {
+  text-align: center;
+  background-image: url('../photos/contact.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 25px;
+  max-height: 350px;
+}
+body.contactBody {
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  font-family: inherit, sans-serif;
+  color: #222;
+  background: none;
 }
 
 /*/////////// Game Application page Styles */

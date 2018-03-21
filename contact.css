@@ -15,19 +15,18 @@ body {
   text-align: center;
   font-family: inherit, sans-serif;
   color: #222;
-  background: none;
+  background-color: #20cbe9;
+  align-content: center;
 }
 .box {width: 350px;
   padding: 20px;
   border: 5px solid gray;
   margin: 0;}
-  body {
-    box-sizing: border-box;
-}
+
 /*Link Styles*/
 a {
   text-decoration: none;
-  color: orange;
+  color: rgb(17, 80, 218);
 }
 a:hover {
   color: #6633ff;
@@ -48,6 +47,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  font-size: 18px;
 }
 .nav .name {
   display: none;}
@@ -55,11 +55,58 @@ a:hover {
 
   header {
     text-align: center;
-    background: url('../photos/question-marks-color.jpg') no-repeat top center ;
+    background: url('photos/contact2.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 25px;
+    max-height: 350px;
   }
   header {
     min-height: 250px;
+  }
+  #iconContactContact {
+    width: 70px;
+    height:70px;
+  }
+  #iconContactLinked{
+  width: 60px;
+  height: 60px;
+  }
+  #iconContactGithub{
+    width: 60px;
+    height: 60px;
+  }
+   input {
+     font-size: 15px ;
+     color: black ;
+     background-color: rgb(255, 255, 255) ;
+     border: 1px solid #bdbdbd;
+     border-radius: 5px;
+  
+   }
+   .cardContact {
+    color: black;
+    border: #222;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  fieldset {
+    width: 5px;
+    border: 2px dotted #2cc987;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: right;
+  }
+  legend {
+    background-color: aliceblue;
+    border: 1px dotted #850dca;
+    border-radius: 0px;
+    padding: 10px 20px;
+  
+  }
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
   }
