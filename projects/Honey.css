@@ -1,3 +1,18 @@
-/* body {
-    background-image: url("../photos/honey.jpg");
-} */
+body {
+    background-image: url("../photos/needbees.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: top;
+    font-size: 18px;
+  }
