@@ -110,3 +110,13 @@ a:hover {
     justify-content: space-around;
     margin: 0 auto;
   }
+  .cardContact {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #098fe7;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+  }
